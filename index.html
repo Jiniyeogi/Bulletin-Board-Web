@@ -9,12 +9,12 @@
     <body>
         <div class="container">
             <h1>게시판</h1>
-            <div id="post-form">
+            <div id="post-list">
                 <!-- 게시글 목록이 여기에 표시됩니다 -->
             </div>
-            <form>
-                <input type="text" placeholder="제목" required>
-                <textarea placeholder="내용" required></textarea>
+            <form id="post-form">
+                <input id="post-title" type="text" placeholder="제목" required>
+                <textarea id="post-content" placeholder="내용" required></textarea>
                 <button type="submit">게시</button>
             </form>
         </div>
